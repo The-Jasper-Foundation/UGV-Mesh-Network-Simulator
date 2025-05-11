@@ -1,0 +1,27 @@
+# UGV Mesh Network Simulator
+
+This project simulates a swarm of unmanned ground vehicles (UGVs) that maintain a self-healing mesh network while following a mission route with predefined checkpoints.
+
+## ✅ Key Features
+
+- 📍 Checkpoint-based navigation
+- 📡 Dynamic radio mesh construction using signal strength
+- 🔁 Auto-repair & reconnection logic
+- ⛽ Fuel timers and RTB (return to base)
+- 🛡️ IFF tamper detection failsafe
+- 📉 Mission abort logic based on signal KPIs
+
+## 🔧 Technologies
+
+- Python 3
+- networkx
+- matplotlib
+- Google Colab compatible
+
+## 📂 Usage
+
+Open the notebook in Google Colab or JupyterLab and run each cell. Use the simulated battlefield loop to see UGVs adapt to network failures and mission constraints.
+
+---
+
+👤 Maintained by [The-Jasper-Foundation](https://github.com/The-Jasper-Foundation)
